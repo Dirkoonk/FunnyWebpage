@@ -10,8 +10,8 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #68DCF7;
+    background-color: darkslategrey;
+    color: darkslategrey;
     text-align: center;
     padding: 1em 0;
 }
@@ -76,7 +76,7 @@ header {
         border-radius: 8px;
         margin-top: 10px;
     }
-    N
+
 /* Neue Stilregel für animierte Übergänge */
 .project-description {
     opacity: 1; /* Standardmäßig sichtbar gemacht */
