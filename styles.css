@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('images/affe.png'); /* Hintergrundbild */
+    background-image: url('images/affe.jpg'); /* Hintergrundbild */
     background-size: cover; /* Deckt den gesamten Bildschirm ab */
     background-position: center; /* Bild wird zentriert */
     background-attachment: fixed; /* Bild bleibt beim Scrollen fixiert */
