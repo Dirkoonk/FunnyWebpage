@@ -41,12 +41,12 @@ header {
     display: flex; /* Sichtbar gemacht */
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 2px;
 }
 
 .project {
     background-color: #fff;
-    padding: 10px;
+    padding: 6px;
     margin: 5px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -60,7 +60,7 @@ header {
 
 .project-description {
     display: block; /* Sichtbar gemacht */
-    background-color: #fff;
+    background-color: #aaf;
     padding: 20px;
     margin-top: 20px;
     border-radius: 8px;
@@ -72,7 +72,7 @@ header {
 
     .project-description img {
         width: 100%;
-        max-width: 400px;
+        max-width: 40px;
         border-radius: 8px;
         margin-top: 10px;
     }
