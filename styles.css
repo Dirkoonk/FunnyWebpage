@@ -70,7 +70,6 @@ header {
     text-align: center;
 }
 
-
     .project-description img {
         width: 100%;
         max-width: 400px;
@@ -82,8 +81,3 @@ header {
 .project-description {
     opacity: 1; /* Standardmäßig sichtbar gemacht */
 }
-
-    .project-description.show {
-        opacity: 1; /* Sichtbar machen mit �bergang */
-    }
-
