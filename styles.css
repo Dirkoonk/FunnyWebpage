@@ -10,8 +10,10 @@ body {
 }
 
 header {
-    background-color: darkslategrey;
-    color: darkslategrey;
+
+    background-color: rgb(181, 151, 252);
+    color: black;
+
     text-align: center;
     padding: 1em 0;
 }
@@ -23,8 +25,8 @@ header {
 }
 
 .person {
-    background-color: #fff;
-    padding: 10px;
+    background-color: #aff;
+    padding: 1px;
     margin: 0 10px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
