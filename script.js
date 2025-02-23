@@ -1,6 +1,6 @@
 function showProjects(person) {
     var allProjects = document.querySelectorAll('.projects');
-    allProjects.forEach(function(projects) {
+    allProjects.forEach(function (projects) {
         projects.style.display = 'none';
     });
     document.getElementById(person).style.display = 'flex';
@@ -8,7 +8,7 @@ function showProjects(person) {
 
 function showDescription(project) {
     var allDescriptions = document.querySelectorAll('.project-description');
-    allDescriptions.forEach(function(description) {
+    allDescriptions.forEach(function (description) {
         description.style.display = 'none';
     });
 
@@ -27,3 +27,6 @@ function showDescription(project) {
         selectedDescription.appendChild(img);
     }
 }
+
+
+

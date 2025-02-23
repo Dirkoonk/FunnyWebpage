@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/affe.jpg'); /* Hintergrundbild */
+    background-size: cover; /* Deckt den gesamten Bildschirm ab */
+    background-position: center; /* Bild wird zentriert */
+    background-attachment: fixed; /* Bild bleibt beim Scrollen fixiert */
+    background-repeat: no-repeat; /* Bild wiederholt sich nicht */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #68DCF7;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.person-list {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.person {
+    background-color: #fff;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Sanfte Übergangseffekte */
+}
+
+    .person:hover {
+        background-color: #eaeaea;
+    }
+
+.projects {
+    display: flex; /* Sichtbar gemacht */
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.project {
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s; /* Sanfte Übergangseffekte */
+}
+
+    .project:hover {
+        background-color: #eaeaea;
+    }
+
+.project-description {
+    display: block; /* Sichtbar gemacht */
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+
+    .project-description img {
+        width: 100%;
+        max-width: 400px;
+        border-radius: 8px;
+        margin-top: 10px;
+    }
+
+/* Neue Stilregel für animierte Übergänge */
+.project-description {
+    opacity: 1; /* Standardmäßig sichtbar gemacht */
+}
+
+    .project-description.show {
+        opacity: 1; /* Sichtbar machen mit �bergang */
+    }
+
