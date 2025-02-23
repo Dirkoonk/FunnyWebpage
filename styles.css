@@ -30,7 +30,7 @@ header {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     cursor: pointer;
-    transition: background-color 0.3s; /* sanfte �bergangseffekte */
+    transition: background-color 0.3s; /* Sanfte Übergangseffekte */
 }
 
     .person:hover {
@@ -38,7 +38,7 @@ header {
     }
 
 .projects {
-    display: none; /* Standardm��ig ausgeblendet */
+    display: flex; /* Sichtbar gemacht */
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
@@ -51,7 +51,7 @@ header {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     cursor: pointer;
-    transition: background-color 0.3s; /* sanfte �bergangseffekte */
+    transition: background-color 0.3s; /* Sanfte Übergangseffekte */
 }
 
     .project:hover {
@@ -59,7 +59,7 @@ header {
     }
 
 .project-description {
-    display: none; /* Standardm��ig ausgeblendet */
+    display: block; /* Sichtbar gemacht */
     background-color: #fff;
     padding: 20px;
     margin-top: 20px;
@@ -78,10 +78,9 @@ header {
         margin-top: 10px;
     }
 
-/* Neue Stilregel f�r animierte �berg�nge */
+/* Neue Stilregel für animierte Übergänge */
 .project-description {
-    opacity: 0;
-    transition: opacity 0.5s ease;
+    opacity: 1; /* Standardmäßig sichtbar gemacht */
 }
 
     .project-description.show {
