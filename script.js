@@ -28,12 +28,5 @@ function showDescription(project) {
     }
 }
 
-// Optional: Funktion zum Ausblenden der Beschreibungen beim Klicken außerhalb
-document.addEventListener('click', function (event) {
-    if (!event.target.classList.contains('project')) {
-        const descriptions = document.querySelectorAll('.project-description');
-        descriptions.forEach(description => {
-            description.style.display = 'none';
-        });
-    }
-});
+
+
