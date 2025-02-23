@@ -1,6 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f799C1;
+    background-image: url('images/affe.png'); /* Hintergrundbild */
+    background-size: cover; /* Deckt den gesamten Bildschirm ab */
+    background-position: center; /* Bild wird zentriert */
+    background-attachment: fixed; /* Bild bleibt beim Scrollen fixiert */
+    background-repeat: no-repeat; /* Bild wiederholt sich nicht */
     margin: 0;
     padding: 0;
 }
