@@ -1,13 +1,17 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-image: url('images/affe.jpg'); /* Hintergrundbild */
+    background-size: cover; /* Deckt den gesamten Bildschirm ab */
+    background-position: center; /* Bild wird zentriert */
+    background-attachment: fixed; /* Bild bleibt beim Scrollen fixiert */
+    background-repeat: no-repeat; /* Bild wiederholt sich nicht */
     margin: 0;
     padding: 0;
 }
 
 header {
     background-color: #333;
-    color: white;
+    color: #68DCF7;
     text-align: center;
     padding: 1em 0;
 }
@@ -26,7 +30,7 @@ header {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     cursor: pointer;
-    transition: background-color 0.3s; /* sanfte Übergangseffekte */
+    transition: background-color 0.3s; /* sanfte ï¿½bergangseffekte */
 }
 
     .person:hover {
@@ -34,7 +38,7 @@ header {
     }
 
 .projects {
-    display: none; /* Standardmäßig ausgeblendet */
+    display: none; /* Standardmï¿½ï¿½ig ausgeblendet */
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
@@ -47,7 +51,7 @@ header {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     cursor: pointer;
-    transition: background-color 0.3s; /* sanfte Übergangseffekte */
+    transition: background-color 0.3s; /* sanfte ï¿½bergangseffekte */
 }
 
     .project:hover {
@@ -55,7 +59,7 @@ header {
     }
 
 .project-description {
-    display: none; /* Standardmäßig ausgeblendet */
+    display: none; /* Standardmï¿½ï¿½ig ausgeblendet */
     background-color: #fff;
     padding: 20px;
     margin-top: 20px;
@@ -66,6 +70,7 @@ header {
     text-align: center;
 }
 
+
     .project-description img {
         width: 100%;
         max-width: 400px;
@@ -73,12 +78,13 @@ header {
         margin-top: 10px;
     }
 
-/* Neue Stilregel für animierte Übergänge */
+/* Neue Stilregel fï¿½r animierte ï¿½bergï¿½nge */
 .project-description {
     opacity: 0;
     transition: opacity 0.5s ease;
 }
 
     .project-description.show {
-        opacity: 1; /* Sichtbar machen mit Übergang */
+        opacity: 1; /* Sichtbar machen mit ï¿½bergang */
     }
+
