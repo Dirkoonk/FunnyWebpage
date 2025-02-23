@@ -70,20 +70,14 @@ header {
     text-align: center;
 }
 
-
     .project-description img {
         width: 100%;
         max-width: 40px;
         border-radius: 8px;
         margin-top: 10px;
     }
-
+    N
 /* Neue Stilregel für animierte Übergänge */
 .project-description {
     opacity: 1; /* Standardmäßig sichtbar gemacht */
 }
-
-    .project-description.show {
-        opacity: 1; /* Sichtbar machen mit �bergang */
-    }
-
